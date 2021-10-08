@@ -16,7 +16,7 @@ public class Dog extends Animal {
         if(length <= 500){
             super.run(length);
         } else {
-            System.out.println("Собака не сможет пробежать больше 500 м.");
+            System.out.println(name +" не сможет пробежать больше 500 м.");
         }
     }
 
@@ -25,7 +25,7 @@ public class Dog extends Animal {
         if(length <= 10){
             super.swim(length);
         } else {
-            System.out.println("Собака не сможет проплыть больше 10 м.");
+            System.out.println(name + " не сможет проплыть больше 10 м.");
         }
     }
 

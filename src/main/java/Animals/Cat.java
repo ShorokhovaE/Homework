@@ -16,13 +16,13 @@ public class Cat extends Animal {
         if (length <= 200){
             super.run(length);
         } else {
-            System.out.println("Кот не сможет пробежать больше 200 м.");
+            System.out.println(name +" не сможет пробежать больше 200 м.");
         }
     }
 
     @Override
     public void swim(int length){
-        System.out.println("Кот не умеет плавать");
+        System.out.println( name + " не умеет плавать.");
     }
 
 }
