@@ -9,7 +9,7 @@ public class Cat {
    public Cat(String name){
        this.name = name;
        this.appetite = 5;
-   //    this.isHungry = true;
+       this.isHungry = true;
        this.isFull = false;
    }
 
