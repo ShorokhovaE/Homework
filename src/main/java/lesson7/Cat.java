@@ -3,7 +3,7 @@ package lesson7;
 public class Cat {
    private String name;
    private int appetite;
- //  private boolean isHungry;
+   private boolean isHungry;
    private boolean isFull;
 
    public Cat(String name){
@@ -22,7 +22,7 @@ public class Cat {
    }
 
     public void info(){
-        System.out.println("Name: " + name + ", full: " + isFull);
+        System.out.println("Name: " + name + ", hungry: " + isHungry + ", full: " + isFull);
     }
 
     public void eat(Plate plate){
@@ -30,7 +30,7 @@ public class Cat {
            System.out.println(name + " не поел. В миске недостаточно еды. ");
            return;
        };
-     //  isHungry = false;
+       isHungry = false;
        isFull = true;
        System.out.println(name + " поел из тарелки");
     }
