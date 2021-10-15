@@ -1,4 +1,4 @@
-package lesson7;
+package ru.geekbrains.lesson7;
 
 public class Plate {
     private int food;
